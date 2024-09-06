@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aravindraj M's Resume</title>
+    <style>
+        body {
+            font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .column {
+            width: 48%;
+        }
+        h1, h2, h3, h4 {
+            margin: 0;
+            padding: 0;
+            font-weight: bold;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+        }
+        h3 {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        .contact-info {
+            margin-bottom: 10px;
+        }
+        .contact-info a {
+            color: #000;
+            text-decoration: none;
+        }
+        .contact-info span {
+            margin-right: 10px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            margin-bottom: 10px;
+        }
+        .section ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .section ul li {
+            margin-bottom: 5px;
+        }
+        .section .experience-entry {
+            margin-bottom: 15px;
+        }
+        .section .education-entry {
+            margin-bottom: 15px;
+        }
+        .skills-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        .skills-table th, .skills-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .skills-table th {
+            background-color: #f4f4f4;
+            text-align: left;
+        }
+        .achievements ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .achievements ul li {
+            margin-bottom: 5px;
+        }
+        .hobbies ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .hobbies ul li {
+            margin-bottom: 5px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Column -->
+        <div class="column">
+            <h1>Aravindraj M</h1>
+            <div class="contact-info">
+                <span>Email: <a href="mailto:aravindraj5054@gmail.com">aravindraj5054@gmail.com</a></span>
+                <span>Phone: (+91) 6382764801</span>
+                <span><a href="https://www.linkedin.com/in/aravindraj2k04/">LinkedIn</a></span>
+                <span><a href="https://github.com/Aravindraj2k04">Github</a></span>
+            </div>
+            
+            <div class="section">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>LICENSESCAN</h3>
+                    <ul>
+                        <li>An ANPR (Automatic Number Plate Recognition) application to capture and detect Indian number plates using CCTV footage.</li>
+                        <li>Role: Train the ML model using Python (YOLO V8) to detect the number plates from the CCTV footage and extract the number plate image.</li>
+                        <li>Performed OCR (Optical Character Recognition) on the number plate using EasyOCR Python library.</li>
+                        <li>Recognized and displayed the characters present in the image.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h3>Quizzler</h3>
+                    <ul>
+                        <li>A quiz app developed for both Android and iOS using the Flutter framework.</li>
+                        <li>To be published on the Play Store.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h3>Personal Voice Assistant</h3>
+                    <ul>
+                        <li>An AI-based personal voice assistant developed using Python.</li>
+                        <li>Utilized speech-to-text and text-to-speech Python modules.</li>
+                    </ul>
+                </div>
+                <div class="project">
+                    <h3>UI/UX Designs</h3>
+                    <ul>
+                        <li>Developed a UI design for an E-learning platform called Focus Realm.</li>
+                        <li>Created UI design for a food delivery app.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Skills</h2>
+                <table class="skills-table">
+                    <tr>
+                        <th>Programming</th>
+                        <td>Python, Java, SQL, Dart (Flutter)</td>
+                    </tr>
+                    <tr>
+                        <th>Cloud Tools</th>
+                        <td>AWS (S3, EC2, Lambda)</td>
+                    </tr>
+                    <tr>
+                        <th>DBMS</th>
+                        <td>MySQL, OracleDB</td>
+                    </tr>
+                    <tr>
+                        <th>OS</th>
+                        <td>Linux, Windows, MacOS</td>
+                    </tr>
+                    <tr>
+                        <th>Softwares</th>
+                        <td>Github, PowerBI, MS Office, Figma</td>
+                    </tr>
+                    <tr>
+                        <th>Soft Skills</th>
+                        <td>Leadership, Communication, Problem Solving</td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="section">
+                <h2>Internships</h2>
+                <div class="internship">
+                    <h3>Focus Realm - Product Design Intern</h3>
+                    <ul>
+                        <li>Worked as a product design intern in Dubai-based startup Focus Realm, gaining valuable organizational experience.</li>
+                        <li>Worked on an e-learning platform aimed at increasing the attention span of students.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Research</h2>
+                <ul>
+                    <li>QR Code optimization using a hybrid error correction approach.</li>
+                    <li>Quantum-Classical cloud model advantages and trade-offs.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Right Column -->
+        <div class="column">
+            <div class="section">
+                <h2>Summary</h2>
+                <p>I am a passionate final-year student with strong skills in Java, Python, and AWS technologies. My excellent communication and problem-solving abilities enable me to work effectively in a team environment.</p>
+            </div>
+            
+            <div class="section">
+                <h2>Education</h2>
+                <div class="education-entry">
+                    <p><strong>Panimalar Engineering College</strong> (2021-2025)</p>
+                    <p>B Tech Computer Science and Business Systems</p>
+                </div>
+                <div class="education-entry">
+                    <p><strong>Don Bosco School Of Excellence Egmore</strong> (2019-2021)</p>
+                    <p>Senior Secondary School, CBSE</p>
+                </div>
+                <div class="education-entry">
+                    <p><strong>Doveton Boys Higher Secondary School</strong> (2009-2019)</p>
+                    <p>Higher Secondary School, ICSE</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>Certifications</h2>
+                <ul>
+                    <li>AWS Certified Cloud Practitioner - Amazon Web Services</li>
+                    <li>Oracle Certified Cloud Foundation Associate - Oracle</li>
+                    <li>Stanford Supervised ML - Stanford Online</li>
+                    <li>SQLIZE WINNER – SRMIST</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>Achievements</h2>
+                <ul>
+                    <li>SQLIZE WINNER – SRMIST</li>
+                    <li>UI/UX Competition Winner – Sairam Engineering College</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>Hobbies</h2>
+                <ul>
+                    <li>Reading Books</li>
+                    <li>Cricket</li>
+                    <li>Rubik's Cube</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+       
+        <p>&copy; 2024 Aravindraj M. All rights reserved.</p>
+    </div>
+</body>
+</html>
